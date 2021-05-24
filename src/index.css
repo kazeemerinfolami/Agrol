@@ -1,13 +1,322 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+}
+html{
+    font-size: 62.5%; 
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+
+
+
+
+.Flex-straight{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.Just-Flex{
+  display: flex;
+  text-align: center;
+}
+.Mini-Menu{
+  display: none;
+}
+
+
+
+
+body{
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+     font-family: Poppins;
+     box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+}
+
+.Nav--container div{
+  font-size: 3rem;
+  color: rgba(11, 167, 11, 0.788) ;
+  font-family: 'Chela One', cursive;
+}
+.Nav--Background-Body{
+  background-image: url("https://res.cloudinary.com/kazeemerinfolami/image/upload/v1621831250/Algro/ricardo-iv-tamayo-uPbatdSi7YQ-unsplash_yzjymw.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 70vh;
+padding: 50px 30px;
+position: relative;
+}
+
+.Nav--List-container{
+  list-style: none;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.ActiveLink{
+  color: rgba(11, 167, 11, 0.788) !important;
+  font-size: 1.5rem !important;
+  font-weight: 600 !important;
+  border-bottom: 3px solid rgba(11, 167, 11, 0.788) ;
+}
+
+.Nav--List-container li a:link{
+  margin: 0 5px;
+  text-decoration: none;
+  padding: 10px 30px;
+}
+.Nav--List-container li a:hover{
+ color: rgba(11, 167, 11, 0.788)  !important;
+ border-bottom: 3px solid rgba(11, 167, 11, 0.788) ;
+}
+.Nav--List-container li a{
+   color: #bdbdbd ;
+}
+
+
+.Nav--Content-container{
+  text-align: center;
+  padding: 0px 20rem;
+  color: #bdbdbd;
+  font-weight: 600;
+  position: absolute;
+  top: 30%;
+  left: 0px;
+  right: 0px;
+}
+.Nav--Content-container div{
+  margin: 15px 0;
+}
+.Nav--Content-container .Nav--Content-name{
+  font-size: 3rem;
+}
+.Nav--Content-container .Nav--Content-deal{
+  font-size: 1.5rem;
+}
+.Nav--Content-container .Nav--Content-about{
+  font-size: 1.5rem;
+}
+.Nav--Content-container button{
+ padding: 0px 70px;
+ font-weight: 800;
+ box-shadow: 1px 1px 10px 10px rgba(19, 19, 19, 0.3);
+ color: #bdbdbd;
+ text-transform: uppercase;
+ background-color: rgba(11, 167, 11, 0.788);
+border: none;
+ border-radius: 100px;
+ margin-top: 40px;
+}
+.Nav--Content-container button:hover{
+ color: rgba(11, 167, 11, 0.788);
+ background-color: #bdbdbd;
+ cursor: pointer;
+  border: 3px solid rgba(11, 167, 11, 0.788) ;
+  box-shadow: 1px 1px 10px 10px rgba(153, 153, 153, 0.3);
+}
+.Nav--content-cart-ico{
+  margin-right: 2px;
+}
+
+
+
+
+.Top-Content--content{
+  width: 50%;
+  padding: 10px;
+}
+.Top-Content--container{
+  display: flex;
+  padding: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.Top-Content--worker-img-container{
+  width: 40%;
+}
+.Top-Content--worker-img{
+  width: 100%;
+  height: 100%;
+}
+
+.Top-Content--WE{
+  font-size: 1.5rem;
+  color: #bdbdbd;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+.Top-Content--content1{
+  font-size: 2rem;
+  color: #bdbdbd;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+.Top-Content--content1 span{
+font-weight: 900;
+color: #333;
+}
+.Top-Content--content2{
+  font-size: 1.5rem;
+  color: #bdbdbd;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.Top-Content--content3{
+  font-size: 1.5rem;
+  color: #bdbdbd;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+.Top-Content--content4{
+  font-size: 1.5rem;
+  color: #333;
+  font-weight: 400;
+   margin-bottom: 30px;
+}
+.Top-Content--List-container{
+  display: flex;
+  align-items: center;
+}
+.Top-Content--List-container ul li{
+  list-style: none;
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+.Top-Content--List-container2{
+  margin-left: 10px;
+}
+.check-icon{
+ margin: 0 5px 0 0;
+ color: rgba(11, 167, 11, 0.788);
+}
+.Top-Content--LearnMore{
+   margin-top: 40px;
+  padding: 5px 60px;
+  border: 2px solid rgba(11, 167, 11, 0.788);
+  background-color: aliceblue;
+  border-radius: 5px;
+  color: rgba(11, 167, 11, 0.788);
+  font-weight: 800;
+}
+.Top-Content--LearnMore:hover{
+  border: none;
+  background-color: rgba(11, 167, 11, 0.788);
+  color: aliceblue;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+.Footer--container{
+   background-image: url("https://res.cloudinary.com/kazeemerinfolami/image/upload/v1621831239/Algro/clay-leconey-OUp0X2P5GII-unsplash_ve9vr6.jpg");
+background-position: bottom;
+background-repeat: no-repeat;
+background-size: cover;
+height: 50vh;
+padding: 50px 30px;
+position: relative;
+}
+
+.logo{
+   font-size: 3rem;
+  color: rgba(11, 167, 11, 0.788) ;
+  font-family: 'Chela One', cursive;
+}
+
+
+
+
+
+
+@media screen and (min-width: 1270px){
+  .Top-Content--WE{
+    margin-top: 40px;
+  margin-bottom: 40px;
+}
+.Top-Content--content1{
+  margin-bottom: 30px;
+}
+.Top-Content--content2{
+  margin-bottom: 20px;
+}
+.Top-Content--content3{
+  margin-bottom: 50px;
+}
+.Top-Content--content4{
+   margin-bottom: 20px;
+}
+.Top-Content--List-container ul li{
+  margin: 20px 0;
+}
+.Top-Content--LearnMore{
+   margin-top: 60px;
+}
+}
+@media screen and (max-width: 800px){
+  .Nav--List-container{
+    display: none;
+  }
+  .Mini-Menu{
+  display: block;
+}
+.Nav--Content-container{
+  padding: 0px;
+  left: 5px;
+  right: 5px;
+}
+.Top-Content--WE{
+  margin-bottom: 10px;
+}
+.Top-Content--content1{
+  margin-bottom: 10px;
+}
+.Top-Content--content2{
+  margin-bottom: 10px;
+}
+.Top-Content--content3{
+  margin-bottom: 10px;
+}
+.Top-Content--content4{
+   margin-bottom: 10px;
+}
+.Top-Content--List-container ul li{
+  margin: 4px 0;
+}
+.Top-Content--LearnMore{
+   margin-top: 10px;
+}
+}
+
+@media screen and (max-width: 570px){
+.Top-Content--content{
+  width: 100%;
+}
+.Top-Content--worker-img-container{
+  width: 100%;
+}
+}
+
+
+@media screen and (max-width: 380px){
+.Top-Content--List-container2{
+  margin-left: 4px;
+}
+}
+
+@media screen and (max-width: 300px){
+.Nav--Content-container button{
+ padding: 0px 30px;
+ margin-top: 5px;
+}
 }
