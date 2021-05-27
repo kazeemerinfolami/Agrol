@@ -42,13 +42,14 @@ body{
   font-family: 'Chela One', cursive;
 }
 .Nav--Background-Body{
-  background-image: url("https://res.cloudinary.com/kazeemerinfolami/image/upload/v1621831250/Algro/ricardo-iv-tamayo-uPbatdSi7YQ-unsplash_yzjymw.jpg");
+  background-image: url("https://res.cloudinary.com/kazeemerinfolami/image/upload/v1621831260/Algro/roger-starnes-sr-kLUb_cGje-8-unsplash_aekeym.jpg");
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 height: 70vh;
 padding: 50px 30px;
 position: relative;
+
 }
 
 .Nav--List-container{
@@ -70,22 +71,22 @@ position: relative;
 }
 .Nav--List-container li a:hover{
  color: rgba(11, 167, 11, 0.788)  !important;
- border-bottom: 3px solid rgba(11, 167, 11, 0.788) ;
 }
 .Nav--List-container li a{
-   color: #bdbdbd ;
+   color: #3f301d ;
 }
 
 
 .Nav--Content-container{
-  text-align: center;
-  padding: 0px 20rem;
-  color: #bdbdbd;
+  text-align: left;
+  width: 50%;
+  padding: 0 0 0 40px;
+  color: #ddcfbc  ;
   font-weight: 600;
   position: absolute;
   top: 30%;
-  left: 0px;
-  right: 0px;
+  left: 5%;
+  right: 5%;
 }
 .Nav--Content-container div{
   margin: 15px 0;
@@ -100,14 +101,15 @@ position: relative;
   font-size: 1.5rem;
 }
 .Nav--Content-container button{
- padding: 0px 70px;
+ padding: 15px 70px;
+ font-size: 1.2rem;
  font-weight: 800;
  box-shadow: 1px 1px 10px 10px rgba(19, 19, 19, 0.3);
- color: #bdbdbd;
+ color: rgba(11, 167, 11, 0.788);
  text-transform: uppercase;
- background-color: rgba(11, 167, 11, 0.788);
-border: none;
- border-radius: 100px;
+ background-color: rgba(255, 255, 255, 0.61);
+border: 3px solid rgba(11, 167, 11, 0.788);
+ border-radius: 5px;
  margin-top: 40px;
 }
 .Nav--Content-container button:hover{
@@ -115,7 +117,7 @@ border: none;
  background-color: #bdbdbd;
  cursor: pointer;
   border: 3px solid rgba(11, 167, 11, 0.788) ;
-  box-shadow: 1px 1px 10px 10px rgba(153, 153, 153, 0.3);
+  box-shadow: 1px 1px 10px 10px rgba(153, 153, 153, 0.137);
 }
 .Nav--content-cart-ico{
   margin-right: 2px;
@@ -136,6 +138,7 @@ border: none;
 }
 .Top-Content--worker-img-container{
   width: 40%;
+  box-shadow: 1px 1px 10px 5px rgba(19, 19, 19, 0.3);
 }
 .Top-Content--worker-img{
   width: 100%;
@@ -210,6 +213,154 @@ color: #333;
 }
 
 
+.Home-Services--container{
+height: 25vh;
+padding: 50px 30px;
+position: relative;
+margin: 30px 0;
+text-align: center;
+}
+.Home-Services--into{
+  position: absolute;
+  top: 5%;
+  right: 15%;
+  left: 15%;
+  padding-bottom: 5px;
+  border-bottom: 3px solid #3f301d10;
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: rgba(3, 95, 3, 0.788);
+}
+.Home-Services--content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: absolute;
+  /* top: 35%; */
+  left: 10%;
+  right: 10%;
+  bottom: 10%;
+}
+.Home-Services--content div{
+  margin: 20px;
+}
+.Home-service--icons{
+  font-size: 4.5rem;
+  color: #D7BE69 ;
+}
+.Home-service--icons:hover{
+  color: rgba(3, 95, 3, 0.788);
+}
+.Home-Services--into2{
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: rgba(3, 95, 3, 0.788);
+}
+.Home-Services--mid-container{
+padding: 50px 30px;
+position: relative;
+margin: 30px 0;
+text-align: center; 
+background-color: #3f301d13;
+}
+.map-img{
+  width: 70%;
+  height: 70%;
+}
+.Home--Form-container{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px 10px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.Home--Form-container form{
+ padding: 50px 10px;
+ border-radius: 10px;
+ height: 100%;
+ margin-bottom: 30px;
+  box-shadow: 1px 1px 10px 5px rgba(19, 19, 19, 0.3);
+}
+.Home--Form-container label{
+  color: #3f301d;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.Home--Form-container input{
+  margin-bottom: 10px;
+  height: 35px;
+  border-radius: 5px;
+}
+
+.Home--side-Form-container{
+  width: 200px;
+  background-color: #3f301d;
+}
+.Home--side-Form-IMG-container{
+  width: 400px;
+   box-shadow: 1px 1px 10px 5px rgba(19, 19, 19, 0.3);
+   margin-bottom: 30px;
+}
+.Home--side-Form-IMG{
+  width: 100%;
+}
+.Home-Services-form--into{
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+.Home-Services-form--into2{
+  font-size: 1.4rem;
+  margin-bottom: 30px;
+}
+.submit--btn{
+  padding: 10px 40px;
+   border: 2px solid rgba(11, 167, 11, 0.788);
+  background-color: rgba(11, 167, 11, 0.788);
+  color: aliceblue;
+  border-radius: 5px;
+  font-weight: 800;
+  font-size: 1.3rem;
+}
+.submit--btn:hover{
+  border: 2px solid rgba(11, 167, 11, 0.788);
+  background-color: aliceblue;
+  color: rgba(11, 167, 11, 0.788);
+}
+.form--box{
+  margin-bottom: 30px;
+}
+
+/*......ABOUT US......*/
+.AboutUs--Nav--Background-Body{
+  background-image: url("https://res.cloudinary.com/kazeemerinfolami/image/upload/v1621831272/Algro/tim-mossholder-xDwEa2kaeJA-unsplash_vdfobd.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 70vh;
+padding: 50px 30px;
+position: relative;
+
+}
+
+.Aboutus--Nav--Content-container{
+  text-align: left;
+  width: 100%;
+  padding: 0 0 0 20px;
+  color: #ddcfbc ;
+  font-weight: 800;
+  position: absolute;
+  bottom: 15%;
+  left: 0px;
+  right: 0px;
+}
+.Aboutus--Nav--Content-container .Nav--Content-name{
+  font-size: 3.5rem;
+}
+
+
+
+
 
 
 
@@ -227,16 +378,64 @@ height: 50vh;
 padding: 50px 30px;
 position: relative;
 }
-
+.Footer--Top-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+   color: #3f301d ;
+}
+.Footer--button button{
+  padding: 10px 40px;
+  margin-right: 5px;
+   border: 2px solid rgba(11, 167, 11, 0.788);
+  background-color: aliceblue;
+  border-radius: 5px;
+  color: rgba(11, 167, 11, 0.788);
+  font-weight: 800;
+  font-size: 1.2rem;
+}
+.Footer--button button:hover{
+  border: none;
+  background-color: rgba(11, 167, 11, 0.788);
+  border: 2px solid rgba(11, 167, 11, 0.788);
+  color: aliceblue;
+  cursor: pointer;
+}
 .logo{
    font-size: 3rem;
   color: rgba(11, 167, 11, 0.788) ;
   font-family: 'Chela One', cursive;
 }
+.Footer--Content-name{
+  font-size: 2rem;
+  line-height: 30px;
+}
+.Footer--Content-content{
+  font-size: 1.5rem;
+}
+.Footer-icon-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+  margin-top: 10px;
 
+}
+.Footer-icon{
+  font-size: 2rem;
+  color: rgba(250, 250, 250, 0.788);
+  margin: 0 15px;
+}
 
-
-
+.Footer-icon:hover{
+  font-size: 2rem;
+  cursor: pointer;
+  color: rgba(11, 167, 11, 0.788);
+}
 
 
 @media screen and (min-width: 1270px){
@@ -263,17 +462,36 @@ position: relative;
    margin-top: 60px;
 }
 }
+@media screen and (max-width: 1030px){
+.Footer--container{
+background-position: bottom;
+background-size: cover;
+height: 60vh;
+}
+.Nav--Background-Body{
+height: 50vh;
+}
+.Footer--container{
+height: 30vh;
+}
+}
 @media screen and (max-width: 800px){
+  .Nav--Content-container{
+  text-align: center;
+  width: 80%;
+  padding: 0px !important;
+  color: #0a0606;
+  font-weight: 600; 
+  top: 20%;
+  position: absolute;
+ left: 10%;
+}
+
   .Nav--List-container{
     display: none;
   }
   .Mini-Menu{
   display: block;
-}
-.Nav--Content-container{
-  padding: 0px;
-  left: 5px;
-  right: 5px;
 }
 .Top-Content--WE{
   margin-bottom: 10px;
@@ -296,6 +514,9 @@ position: relative;
 .Top-Content--LearnMore{
    margin-top: 10px;
 }
+.Home-Services--content{
+  bottom: 0%;
+}
 }
 
 @media screen and (max-width: 570px){
@@ -305,6 +526,42 @@ position: relative;
 .Top-Content--worker-img-container{
   width: 100%;
 }
+.Nav--Background-Body{
+height: 75vh;
+}
+.Footer--Top-content{
+  justify-content: left;
+}
+.Footer--button button{
+  padding: 10px 40px;
+   border: 2px solid rgba(11, 167, 11, 0.788);
+  background-color: aliceblue;
+  border-radius: 5px;
+  color: rgba(11, 167, 11, 0.788);
+  font-weight: 800;
+}
+.Footer--contact-button{
+  margin: 20px 5px 5px 0;
+
+}
+.Home-Services--content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: absolute;
+  bottom: 0%;
+  left: 3%;
+  right: 3%;
+}
+.Home-service--icons{
+  font-size: 3rem;
+}
+.Home-Services--content div{
+  margin: 10px;
+}
+.Footer--container{
+height: 50vh;
+}
 }
 
 
@@ -312,11 +569,41 @@ position: relative;
 .Top-Content--List-container2{
   margin-left: 4px;
 }
+.Footer--container{
+height: 60vh;
+}
+.Home-Services--content{
+  top: 30%;
+  left: 3%;
+  right: 3%;
+}
+}
+
+@media screen and (max-width: 360px){
+.Nav--Content-container button{
+ margin-top: 10px;
+}
+.Footer--container{
+height: 70vh;
+}
 }
 
 @media screen and (max-width: 300px){
 .Nav--Content-container button{
- padding: 0px 30px;
+ padding: 5px 30px;
  margin-top: 5px;
+}
+.Nav--Background-Body{
+padding: 20px 10px;
+}
+.Nav--Content-container{
+  top: 10%;
+}
+.Home-Services--content{
+  left: 1%;
+  right: 1%;
+}
+.Home-Services--container{
+height: 50vh;
 }
 }

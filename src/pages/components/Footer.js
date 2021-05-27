@@ -7,17 +7,22 @@ function Footer() {
                 <div>Agrol Platform</div>
                 <div><span className="iconify" data-icon="openmoji:fallen-leaf" data-inline="false"></span></div>
             </div>
-            <div>
+            <div className="Footer--Top-content">
                 <div>
-                    <div>
-                        BRIGHT NATURE OF DECISION
+                    <div className="Footer--Content-name"> BRIGHT NATURE OF DECISION </div>
+                    <div className="Footer--Content-content">Bringing growth, ingenuity, and experience to market.</div>
                 </div>
-                    <div>Bringing growth, ingenuity, and experience to market.</div>
-                </div>
-                <div>
-                    <button>Contact Us</button>
+                <div className="Footer--button">
+                    <button className="Footer--contact-button">Contact Us</button>
                     <button>About Us</button>
                 </div>
+            </div>
+            <div className="Footer-icon-wrapper">
+                <div><span className="iconify Footer-icon" data-icon="fe:facebook" data-inline="false"></span></div>
+                <div><span className="iconify Footer-icon" data-icon="bx:bxl-twitter" data-inline="false"></span></div>
+                <div><span className="iconify Footer-icon" data-icon="mdi:gmail" data-inline="false"></span></div>
+                <div><span className="iconify Footer-icon" data-icon="jam:whatsapp" data-inline="false"></span></div>
+                <div><span className="iconify Footer-icon" data-icon="akar-icons:linkedin-fill" data-inline="false"></span></div>
             </div>
         </div>
     )

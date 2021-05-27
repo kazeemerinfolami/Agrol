@@ -1,9 +1,19 @@
 import React from 'react'
-import BodyFrame from './components/BodyFrame'
+import BodyFrame from '../components/BodyFrame'
+import HomeForm from './HomeForm'
+import { SideImg2, MapItem, ProductServices, SideImg1 } from './SideImg'
 
 function Home() {
+
+
+    const Navchildren = (<div className="Nav--Content-container">
+        <div className="Nav--Content-name">Agrol Market Place</div>
+        <div className="Nav--Content-deal">We deal with Organic and agricultural Food</div>
+        <div className="Nav--Content-about">Creates Investment Opportunity for small investors: Investing in shares is open to large and small scale farmers because individuals buy the number of shares that they can afford</div>
+        <button className="Nav--content-cart-ico">Visit our store</button>
+    </div>)
     return (
-        <BodyFrame>
+        <BodyFrame BackgroundDisplay={"Nav--Background-Body"} Navchildren={Navchildren}>
             <div className="Top-Content--container">
                 <div className="Top-Content--content">
                     <div className="Top-Content--WE">WE ARE AGROLY</div>
@@ -27,9 +37,16 @@ function Home() {
                         <button className="Top-Content--LearnMore">Learn More</button>
                     </div>
                 </div>
-                <div className="Top-Content--worker-img-container">
-                    <img className="Top-Content--worker-img" src="https://res.cloudinary.com/kazeemerinfolami/image/upload/v1621851905/Algro/alejandro-duarte-8dwYOzLPCtA-unsplash_l05z7t.jpg" alt="workerIMG" />
-                </div>
+                <SideImg1 />
+            </div>
+            <div className="Home-Services--container">
+                <div className="Home-Services--into">What We are into</div>
+                <ProductServices />
+            </div>
+            <MapItem />
+            <div className="Home--Form-container">
+                <SideImg2 />
+                <HomeForm />
             </div>
         </BodyFrame>
     )

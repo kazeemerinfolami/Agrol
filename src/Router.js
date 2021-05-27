@@ -1,21 +1,25 @@
-import Home from "./pages/Home";
-import {
-  BrowserRouter,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
 
-function Router() {
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
+import About from "./pages/About/About";
+import Home from "./pages/Home/Home";
+
+function NavRouter() {
   return (
-    <BrowserRouter>
+    < Router >
       <Switch>
-        <Route path="/">
+        <Route exact path="/">
           <Home />
         </Route>
+        <Route path="/about">
+          <About />
+        </Route>
       </Switch>
-    </BrowserRouter >
+    </Router >
   );
 }
 
-export default Router;
+export default NavRouter;
