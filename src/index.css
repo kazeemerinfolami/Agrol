@@ -220,6 +220,27 @@ position: relative;
 margin: 30px 0;
 text-align: center;
 }
+.Home-Services--midcontainer{
+  text-align: center;
+  padding: 30px 10px;
+}
+.Home-Services--midcontainer .Home-Services--midinto{
+margin-bottom: 30px;
+padding-bottom: 5px;
+  border-bottom: 3px solid #3f301d0e;
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: rgba(3, 95, 3, 0.788);
+}
+.Home-Services--midcontent{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.Home-Services--midcontent div{
+ margin: 10px 20px;
+}
+
 .Home-Services--into{
   position: absolute;
   top: 5%;
@@ -469,13 +490,13 @@ background-size: cover;
 height: 60vh;
 }
 .Nav--Background-Body{
-height: 50vh;
+height: 60vh;
 }
 .Footer--container{
 height: 30vh;
 }
 }
-@media screen and (max-width: 800px){
+@media screen and (max-width: 815px){
   .Nav--Content-container{
   text-align: center;
   width: 80%;
@@ -486,7 +507,9 @@ height: 30vh;
   position: absolute;
  left: 10%;
 }
-
+.Nav--Background-Body{
+height: 100vh;
+}
   .Nav--List-container{
     display: none;
   }
@@ -516,6 +539,9 @@ height: 30vh;
 }
 .Home-Services--content{
   bottom: 0%;
+}
+.Footer--container{
+height: 80vh;
 }
 }
 
