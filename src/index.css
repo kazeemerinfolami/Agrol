@@ -496,7 +496,7 @@ height: 60vh;
 height: 30vh;
 }
 }
-@media screen and (max-width: 815px){
+@media screen and (max-width: 1000px){
   .Nav--Content-container{
   text-align: center;
   width: 80%;
